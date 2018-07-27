@@ -39,12 +39,6 @@ const deleteItem = function (index) {
     render()
 }
 
-const printDOM = document.getElementById('print')
-
-printDOM.addEventListener('click', function() {
-    window.print()
-})
-
 buttonDOM.addEventListener('click', function() {
     addItem(inputDOM.value)
 
