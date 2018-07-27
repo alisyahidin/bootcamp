@@ -1,0 +1,13 @@
+#lists {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    padding: 1em 1em;
+}
+
+.list-item:hover {
+    background-color: #3591E5;
+    color: #FFF;
+}
